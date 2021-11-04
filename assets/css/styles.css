@@ -90,7 +90,7 @@
 #bottom-wrapper {
   background: #fff;
   padding: 0;
-  border-top: 1px solid #ccc;
+  /* border-top: 1px solid #ccc; */
   width: 1142px;
   margin-left: 50%;
   transform: translate(-50%);
@@ -102,7 +102,7 @@
 
 .navbarToggle {
   position: absolute;
-  top: 0px;
+  top: 5px;
   z-index: 3;
   border: none;
   border-radius: 0;
@@ -110,20 +110,22 @@
 }
 
 #send-input {
-  border: 0;
+  border: 1px solid #ddd;
   background: #fff;
-  border-radius: 0;
-  margin-left: 54px;
-  border-top: 1px solid #e4e8f3;
+  border-radius: 30px;
+  margin: 5px 0 5px 54px;
+  padding-left: 20px;
+  /* border-top: 1px solid #e4e8f3; */
 }
 
 .send-Btn {
-  margin: 0;
+  margin-top: 5px;
   border-radius: 0;
 }
 
 #navcol-1 {
-  background: #f1f1f1;
+  /* background: #f1f1f1; */
+  background: #fff;
 }
 
 #input-group {
@@ -131,6 +133,17 @@
 
 #navcol-1 ul {
   padding: 8px 18px;
+  display: flex;
+  justify-content: space-between;
+}
+#navcol-1 ul li {
+  background: #ddd;
+  width: 49.5%;
+  margin: 4px 0;
+  border-radius: 8px;
+}
+#navcol-1 ul li a {
+  text-align: center;
 }
 
 .list-group-item:first-child {
@@ -166,4 +179,3 @@
     margin-top: 38px;
   }
 }
-
